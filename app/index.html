@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Paint</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/libs.min.css">
+  <link rel="stylesheet" href="css/index.css"><link rel="stylesheet" href="fonts/fontawesome/css/all.min.css">
+</head>
+<body>
+  <main class="main">
+    <div class="section_title">
+      <div class="text">
+        <h1 class="title">Canvas Drawing</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam quia incidunt commodi deleniti dolorum necessitatibus blanditiis cupiditate impedit nemo accusamus soluta vitae, delectus distinctio voluptatum qui ducimus illum minus eum?</p>
+      </div>
+      <div class="logo"><img src="img/Logo.png" alt="Img"></div>
+    </div>
+    <div class="section_paint">
+      <div class="section_canvas">
+        <canvas class="canvas"></canvas>
+      </div>
+      <div class="section_menu">
+        <div class="button_menu">
+          <h2>Tools</h2>
+          <div class="button_main"><i class="fas fa-paint-brush"></i><i class="fas fa-eraser"></i><i class="fas fa-backspace"></i>
+          </div>
+          <input type="range" min="1" max="250" value="10" class="size_range">
+          <h2>Color</h2>
+          <div class="button_color">
+            <input type="color" class="color">
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/index.js"></script>
+  </main>
+</body>

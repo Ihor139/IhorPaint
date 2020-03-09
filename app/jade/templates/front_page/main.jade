@@ -1,0 +1,28 @@
+.section_title
+    .text
+        h1.title Canvas Drawing
+        p Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam quia incidunt commodi deleniti dolorum necessitatibus blanditiis cupiditate impedit nemo accusamus soluta vitae, delectus distinctio voluptatum qui ducimus illum minus eum?
+    .logo
+        img(src="img/Logo.png" alt="Img")
+.section_paint
+    .section_canvas
+        canvas.canvas
+    .section_menu
+        .button_menu
+            h2 Tools
+            .button_main
+                //- i.fas.fa-pencil-alt
+                i.fas.fa-paint-brush
+                i.fas.fa-eraser
+                //- i.fas.fa-fill-drip
+                i.fas.fa-backspace
+            input.size_range(type="range", min='1', max='250', value='10')
+            //- h2 Templates
+            //- .button_templates
+            //-     i.far.fa-square-full
+            //-     i.fas.fa-exclamation-triangle
+            //-     i.far.fa-circle
+            //-     i.far.fa-heart
+            h2 Color
+            .button_color
+                input.color(type="color")
